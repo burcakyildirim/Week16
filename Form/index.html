@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="submit.html" method="get">
+        <!--  Ad Soyad input  -->
+        <label for = "fname">Adınız</label><br><br>
+        <input type = "text" id = "fname" name = "fname" required><br><br>
+        <label for = "sname">Soyadınız</label><br><br>
+        <input type="text" id = "sname" name = "sname" required><br><br>
+
+        <!--  E-mail input  -->
+        <label for = "email">E-mail</label><br><br>
+        <input type = "email" id="email" name = "email" required><br><br>
+
+        <!--  Şifre input  -->
+        <label for = "password">Şifre</label><br><br>
+        <input type = "password" id = "password" name = "password required" minlength="6"><br><br>
+
+        <!--  Gender input  -->
+        <label for = "gender">Cinsiyet</label><br><br>
+        <input type = "radio" id ="female" name ="gender" value="female" required>
+        <label for = "female">Kadın</label>&emsp;&emsp;
+        <input type="radio" id ="male" name = "gender" value = "male" required>
+        <label for="male">Erkek</label><br><br>
+
+        <!--  Select input  -->
+        <label for="fruit">Meyveler</label>&emsp;
+        <select id="fruit" name = "fruit" required>
+            <option value=" "> </option>
+            <option value="Ananas">Ananas</option>
+            <option value="Muz">Muz</option>
+            <option value="Kivi">Kivi</option>
+        </select><br><br>
+
+        <!--  TextArea input  -->
+        <label for="message">Mesaj</label><br><br>
+        <textarea id = "message" name = "message" rows = "5" cols = "50"></textarea><br><br>
+
+        <!--  Submit input  -->
+        <input type = "submit" value = "Gönder">
+    </form>
+</body>
+</html>
